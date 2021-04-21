@@ -35,6 +35,8 @@ if __name__ == '__main__':
     try:
         with open(INPUT_FILE, 'r') as f:
             while row := f.readline():
+                if row.isspace():
+                    continue
                 row = row.rstrip('\n').split()
                 check_item = ['', '', '']
                 check_item[2] = row.pop(-1)

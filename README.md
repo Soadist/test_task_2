@@ -16,8 +16,10 @@ file_02.bin FAIL
 file_03.bin NOT FOUND
 file_04.txt OK
 
-Запуск через python task_2.py <input_file> <path>
+# Решение
 
-в input_file не допускаются пустые строки
+Запуск через python task_2.py <input_file_path> <check_dir_path>
 
-Версия python не ниже 3.8
+В input_file использование экранирования и кавычек для файлов с пробельными символами не допускается и не требуется.
+
+Для запуска используется python версией не ниже 3.8
