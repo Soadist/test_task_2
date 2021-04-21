@@ -28,7 +28,7 @@ if __name__ == '__main__':
     except IndexError:
         print('Syntax')
         print(
-            f'python {sys.argv[0]} <path to the input file>'
+            'python task_2.py <path to the input file>'
             ' <path to the directory containing the files to check>'
         )
         exit()
